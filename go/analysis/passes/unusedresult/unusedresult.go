@@ -13,10 +13,10 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/jackie-feng/tools/go/analysis"
+	"github.com/jackie-feng/tools/go/analysis/passes/inspect"
+	"github.com/jackie-feng/tools/go/analysis/passes/internal/analysisutil"
+	"github.com/jackie-feng/tools/go/ast/inspector"
 )
 
 // TODO(adonovan): make this analysis modular: export a mustUseResult

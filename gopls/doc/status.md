@@ -2,7 +2,7 @@
 
 gopls is currently in **alpha**, so it is **not stable**.
 
-gopls is currently under active development by the Go team. The code is in the [x/tools] repository, in [golang.org/x/tools/internal/lsp] and [golang.org/x/tools/gopls].
+gopls is currently under active development by the Go team. The code is in the [x/tools] repository, in [github.com/jackie-feng/tools/internal/lsp] and [github.com/jackie-feng/tools/gopls].
 
 ## Supported features
 
@@ -30,8 +30,8 @@ missing features
 1. Changes in files outside of the editor are not yet tracked: [#31553]
 
 [x/tools]: https://github.com/golang/tools
-[golang.org/x/tools/gopls]: https://github.com/golang/tools/tree/master/gopls
-[golang.org/x/tools/internal/lsp]: https://github.com/golang/tools/tree/master/internal/lsp
+[github.com/jackie-feng/tools/gopls]: https://github.com/golang/tools/tree/master/gopls
+[github.com/jackie-feng/tools/internal/lsp]: https://github.com/golang/tools/tree/master/internal/lsp
 
 
 [#31937]: https://github.com/golang/go/issues/31937

@@ -3,9 +3,9 @@ package lsp
 import (
 	"context"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 func (s *Server) foldingRange(ctx context.Context, params *protocol.FoldingRangeParams) ([]protocol.FoldingRange, error) {

@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"golang.org/x/tools/internal/telemetry"
-	"golang.org/x/tools/internal/telemetry/export/ocagent/wire"
-	"golang.org/x/tools/internal/telemetry/metric"
+	"github.com/jackie-feng/tools/internal/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry/export/ocagent/wire"
+	"github.com/jackie-feng/tools/internal/telemetry/metric"
 )
 
 // dataToMetricDescriptor return a *wire.MetricDescriptor based on data.

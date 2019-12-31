@@ -16,10 +16,10 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/internal/gopathwalk"
-	"golang.org/x/tools/internal/module"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/txtar"
+	"github.com/jackie-feng/tools/internal/gopathwalk"
+	"github.com/jackie-feng/tools/internal/module"
+	"github.com/jackie-feng/tools/internal/testenv"
+	"github.com/jackie-feng/tools/txtar"
 )
 
 // Tests that we can find packages in the stdlib.

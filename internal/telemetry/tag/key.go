@@ -8,7 +8,7 @@ package tag
 import (
 	"context"
 
-	"golang.org/x/tools/internal/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry"
 )
 
 // Key represents the key for a context tag.

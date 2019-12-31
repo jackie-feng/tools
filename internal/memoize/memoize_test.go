@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/memoize"
+	"github.com/jackie-feng/tools/internal/memoize"
 )
 
 func TestStore(t *testing.T) {

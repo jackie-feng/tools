@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/source"
 )
 
 func ToProtocolCompletionItems(items []source.CompletionItem) []protocol.CompletionItem {

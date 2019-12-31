@@ -3,7 +3,7 @@ package source
 import (
 	"go/ast"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
 
 	errors "golang.org/x/xerrors"
 )

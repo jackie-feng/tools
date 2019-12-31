@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/telemetry"
-	"golang.org/x/tools/internal/telemetry/metric"
+	"github.com/jackie-feng/tools/internal/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry/metric"
 )
 
 func TestEncodeMetric(t *testing.T) {

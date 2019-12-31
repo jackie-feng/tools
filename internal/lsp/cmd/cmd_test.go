@@ -12,11 +12,11 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/lsp/cmd"
-	cmdtest "golang.org/x/tools/internal/lsp/cmd/test"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/jackie-feng/tools/go/packages/packagestest"
+	"github.com/jackie-feng/tools/internal/lsp/cmd"
+	cmdtest "github.com/jackie-feng/tools/internal/lsp/cmd/test"
+	"github.com/jackie-feng/tools/internal/lsp/tests"
+	"github.com/jackie-feng/tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

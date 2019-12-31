@@ -17,7 +17,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/tools/go/gcexportdata"
+	"github.com/jackie-feng/tools/go/gcexportdata"
 )
 
 // ExampleRead uses gcexportdata.Read to load type information for the

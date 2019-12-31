@@ -37,13 +37,13 @@ import (
 	"runtime"
 	"strings"
 
-	"golang.org/x/tools/godoc"
-	"golang.org/x/tools/godoc/analysis"
-	"golang.org/x/tools/godoc/static"
-	"golang.org/x/tools/godoc/vfs"
-	"golang.org/x/tools/godoc/vfs/gatefs"
-	"golang.org/x/tools/godoc/vfs/mapfs"
-	"golang.org/x/tools/godoc/vfs/zipfs"
+	"github.com/jackie-feng/tools/godoc"
+	"github.com/jackie-feng/tools/godoc/analysis"
+	"github.com/jackie-feng/tools/godoc/static"
+	"github.com/jackie-feng/tools/godoc/vfs"
+	"github.com/jackie-feng/tools/godoc/vfs/gatefs"
+	"github.com/jackie-feng/tools/godoc/vfs/mapfs"
+	"github.com/jackie-feng/tools/godoc/vfs/zipfs"
 	"golang.org/x/xerrors"
 )
 

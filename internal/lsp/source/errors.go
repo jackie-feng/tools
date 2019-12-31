@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 const (
@@ -77,7 +77,7 @@ func checkCommonErrors(ctx context.Context, view View, uri span.URI) (string, er
 }
 
 // invokeGo returns the stdout of a go command invocation.
-// Borrowed from golang.org/x/tools/go/packages/golist.go.
+// Borrowed from github.com/jackie-feng/tools/go/packages/golist.go.
 func InvokeGo(ctx context.Context, dir string, env []string, args ...string) (*bytes.Buffer, error) {
 	stdout := new(bytes.Buffer)
 	stderr := new(bytes.Buffer)

@@ -8,9 +8,9 @@ import (
 	"context"
 	"go/ast"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/go/packages"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 type builtinPkg struct {

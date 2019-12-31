@@ -29,9 +29,9 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/internal/analysisflags"
-	"golang.org/x/tools/go/packages"
+	"github.com/jackie-feng/tools/go/analysis"
+	"github.com/jackie-feng/tools/go/analysis/internal/analysisflags"
+	"github.com/jackie-feng/tools/go/packages"
 )
 
 var (

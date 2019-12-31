@@ -3,9 +3,9 @@
 // license that can be found in the LICENSE file.
 
 // Package rename contains the implementation of the 'gorename' command
-// whose main function is in golang.org/x/tools/cmd/gorename.
+// whose main function is in github.com/jackie-feng/tools/cmd/gorename.
 // See the Usage constant for the command documentation.
-package rename // import "golang.org/x/tools/refactor/rename"
+package rename // import "github.com/jackie-feng/tools/refactor/rename"
 
 import (
 	"bytes"
@@ -28,10 +28,10 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/refactor/importgraph"
-	"golang.org/x/tools/refactor/satisfy"
+	"github.com/jackie-feng/tools/go/loader"
+	"github.com/jackie-feng/tools/go/types/typeutil"
+	"github.com/jackie-feng/tools/refactor/importgraph"
+	"github.com/jackie-feng/tools/refactor/satisfy"
 )
 
 const Usage = `gorename: precise type-safe renaming of identifiers in Go source code.

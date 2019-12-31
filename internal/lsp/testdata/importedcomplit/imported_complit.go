@@ -1,7 +1,7 @@
 package importedcomplit
 
 import (
-	"golang.org/x/tools/internal/lsp/foo"
+	"github.com/jackie-feng/tools/internal/lsp/foo"
 )
 
 func _() {

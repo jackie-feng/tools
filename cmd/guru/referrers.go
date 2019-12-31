@@ -20,11 +20,11 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/cmd/guru/serial"
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/imports"
-	"golang.org/x/tools/refactor/importgraph"
+	"github.com/jackie-feng/tools/cmd/guru/serial"
+	"github.com/jackie-feng/tools/go/buildutil"
+	"github.com/jackie-feng/tools/go/loader"
+	"github.com/jackie-feng/tools/imports"
+	"github.com/jackie-feng/tools/refactor/importgraph"
 )
 
 // The referrers function reports all identifiers that resolve to the same object

@@ -22,7 +22,7 @@ import (
 	"runtime/pprof"
 	"strings"
 
-	"golang.org/x/tools/internal/imports"
+	"github.com/jackie-feng/tools/internal/imports"
 )
 
 var (

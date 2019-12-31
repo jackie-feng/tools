@@ -7,7 +7,7 @@ package cmdtest
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 func (r *runner) SuggestedFix(t *testing.T, spn span.Span) {

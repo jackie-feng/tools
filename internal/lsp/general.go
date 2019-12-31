@@ -11,12 +11,12 @@ import (
 	"os"
 	"path"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/internal/jsonrpc2"
+	"github.com/jackie-feng/tools/internal/lsp/debug"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/telemetry/log"
 	errors "golang.org/x/xerrors"
 )
 

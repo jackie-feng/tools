@@ -29,7 +29,7 @@ func TestStaticIsUpToDate(t *testing.T) {
 
 	if bytes.Compare(oldBuf, newBuf) != 0 {
 		t.Error(`static.go is stale.  Run:
-  $ go generate golang.org/x/tools/godoc/static
+  $ go generate github.com/jackie-feng/tools/godoc/static
   $ git diff
 to see the differences.`)
 

@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/gopls/integration/parse"
-	"golang.org/x/tools/internal/jsonrpc2"
-	p "golang.org/x/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/gopls/integration/parse"
+	"github.com/jackie-feng/tools/internal/jsonrpc2"
+	p "github.com/jackie-feng/tools/internal/lsp/protocol"
 )
 
 var (

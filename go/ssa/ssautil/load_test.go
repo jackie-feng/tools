@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/jackie-feng/tools/go/packages"
+	"github.com/jackie-feng/tools/go/ssa/ssautil"
+	"github.com/jackie-feng/tools/internal/testenv"
 )
 
 const hello = `package main

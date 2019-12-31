@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"go/token"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 // DiffLinks takes the links we got and checks if they are located within the source or a Note.

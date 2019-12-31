@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry"
 )
 
 type Exporter interface {

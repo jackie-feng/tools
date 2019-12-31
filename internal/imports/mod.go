@@ -15,9 +15,9 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/internal/gopathwalk"
-	"golang.org/x/tools/internal/module"
-	"golang.org/x/tools/internal/semver"
+	"github.com/jackie-feng/tools/internal/gopathwalk"
+	"github.com/jackie-feng/tools/internal/module"
+	"github.com/jackie-feng/tools/internal/semver"
 )
 
 // ModuleResolver implements resolver for modules using the go command as little

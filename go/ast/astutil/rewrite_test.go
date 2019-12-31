@@ -12,7 +12,7 @@ import (
 	"go/token"
 	"testing"
 
-	"golang.org/x/tools/go/ast/astutil"
+	"github.com/jackie-feng/tools/go/ast/astutil"
 )
 
 var rewriteTests = [...]struct {

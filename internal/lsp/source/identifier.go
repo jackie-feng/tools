@@ -12,9 +12,9 @@ import (
 	"go/types"
 	"strconv"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/telemetry/trace"
+	"github.com/jackie-feng/tools/go/ast/astutil"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/telemetry/trace"
 	errors "golang.org/x/xerrors"
 )
 

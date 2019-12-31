@@ -12,11 +12,11 @@ import (
 	"os"
 	"strings"
 
-	guru "golang.org/x/tools/cmd/guru/serial"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	guru "github.com/jackie-feng/tools/cmd/guru/serial"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/tool"
 	errors "golang.org/x/xerrors"
 )
 

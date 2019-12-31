@@ -20,11 +20,11 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/telemetry/export"
-	"golang.org/x/tools/internal/telemetry/export/prometheus"
-	"golang.org/x/tools/internal/telemetry/log"
-	"golang.org/x/tools/internal/telemetry/tag"
+	"github.com/jackie-feng/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/telemetry/export"
+	"github.com/jackie-feng/tools/internal/telemetry/export/prometheus"
+	"github.com/jackie-feng/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/internal/telemetry/tag"
 )
 
 type Cache interface {

@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/interp"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"github.com/jackie-feng/tools/go/loader"
+	"github.com/jackie-feng/tools/go/ssa"
+	"github.com/jackie-feng/tools/go/ssa/interp"
+	"github.com/jackie-feng/tools/go/ssa/ssautil"
 )
 
 // Each line contains a space-separated list of $GOROOT/test/
@@ -161,7 +161,7 @@ func run(t *testing.T, input string) bool {
 		interp.CapturedOutput = nil
 	}()
 
-	hint = fmt.Sprintf("To dump SSA representation, run:\n%% go build golang.org/x/tools/cmd/ssadump && ./ssadump -test -build=CFP %s\n", input)
+	hint = fmt.Sprintf("To dump SSA representation, run:\n%% go build github.com/jackie-feng/tools/cmd/ssadump && ./ssadump -test -build=CFP %s\n", input)
 
 	iprog, err := conf.Load()
 	if err != nil {
@@ -179,7 +179,7 @@ func run(t *testing.T, input string) bool {
 
 	interp.CapturedOutput = new(bytes.Buffer)
 
-	hint = fmt.Sprintf("To trace execution, run:\n%% go build golang.org/x/tools/cmd/ssadump && ./ssadump -build=C -test -run --interp=T %s\n", input)
+	hint = fmt.Sprintf("To trace execution, run:\n%% go build github.com/jackie-feng/tools/cmd/ssadump && ./ssadump -build=C -test -run --interp=T %s\n", input)
 	exitCode := interp.Interpret(mainPkg, 0, &types.StdSizes{WordSize: 8, MaxAlign: 8}, input, []string{})
 	if exitCode != 0 {
 		t.Fatalf("interpreting %s: exit code was %d", input, exitCode)

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
+	"github.com/jackie-feng/tools/go/analysis"
+	"github.com/jackie-feng/tools/go/analysis/passes/internal/analysisutil"
 )
 
 const Doc = "check that +build tags are well-formed and correctly located"

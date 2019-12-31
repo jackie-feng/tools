@@ -7,9 +7,9 @@
 package telemetry
 
 import (
-	"golang.org/x/tools/internal/telemetry/stats"
-	"golang.org/x/tools/internal/telemetry/tag"
-	"golang.org/x/tools/internal/telemetry/unit"
+	"github.com/jackie-feng/tools/internal/telemetry/stats"
+	"github.com/jackie-feng/tools/internal/telemetry/tag"
+	"github.com/jackie-feng/tools/internal/telemetry/unit"
 )
 
 const (

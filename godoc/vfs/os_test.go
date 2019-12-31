@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/godoc/vfs"
+	"github.com/jackie-feng/tools/godoc/vfs"
 )
 
 func TestRootType(t *testing.T) {

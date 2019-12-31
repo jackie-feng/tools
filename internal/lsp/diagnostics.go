@@ -8,11 +8,11 @@ import (
 	"context"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/telemetry"
-	"golang.org/x/tools/internal/telemetry/log"
-	"golang.org/x/tools/internal/telemetry/trace"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/lsp/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/internal/telemetry/trace"
 )
 
 func (s *Server) diagnose(snapshot source.Snapshot, fh source.FileHandle) error {

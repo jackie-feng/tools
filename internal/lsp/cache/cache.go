@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/lsp/debug"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/memoize"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 func New(options func(*source.Options)) source.Cache {

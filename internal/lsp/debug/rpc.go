@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"sort"
 
-	tlm "golang.org/x/tools/internal/lsp/telemetry"
-	"golang.org/x/tools/internal/telemetry"
-	"golang.org/x/tools/internal/telemetry/metric"
+	tlm "github.com/jackie-feng/tools/internal/lsp/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry/metric"
 )
 
 var rpcTmpl = template.Must(template.Must(BaseTemplate.Clone()).Parse(`

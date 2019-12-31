@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"golang.org/x/tools/go/ssa"
+	"github.com/jackie-feng/tools/go/ssa"
 )
 
 type opaqueType struct {

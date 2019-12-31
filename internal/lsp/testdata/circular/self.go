@@ -1,5 +1,5 @@
 package circular
 
 import (
-	_ "golang.org/x/tools/internal/lsp/circular" //@diag("_ \"golang.org/x/tools/internal/lsp/circular\"", "go list", "import cycle not allowed")
+	_ "github.com/jackie-feng/tools/internal/lsp/circular" //@diag("_ \"github.com/jackie-feng/tools/internal/lsp/circular\"", "go list", "import cycle not allowed")
 )

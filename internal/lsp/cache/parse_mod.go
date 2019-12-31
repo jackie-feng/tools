@@ -8,10 +8,10 @@ import (
 	"context"
 
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/telemetry"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/telemetry/trace"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/lsp/telemetry"
+	"github.com/jackie-feng/tools/internal/memoize"
+	"github.com/jackie-feng/tools/internal/telemetry/trace"
 	errors "golang.org/x/xerrors"
 )
 

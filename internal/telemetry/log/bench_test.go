@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	tellog "golang.org/x/tools/internal/telemetry/log"
-	"golang.org/x/tools/internal/telemetry/tag"
+	tellog "github.com/jackie-feng/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/internal/telemetry/tag"
 )
 
 func init() {

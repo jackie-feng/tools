@@ -20,7 +20,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/jackie-feng/tools/internal/xcontext"
 )
 
 // Store binds keys to functions, returning handles that can be used to access

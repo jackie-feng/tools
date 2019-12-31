@@ -5,7 +5,7 @@
 package hooks
 
 import (
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/lsp/source"
 	"honnef.co/go/tools/simple"
 	"honnef.co/go/tools/staticcheck"
 	"honnef.co/go/tools/stylecheck"

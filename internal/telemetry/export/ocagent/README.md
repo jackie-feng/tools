@@ -52,7 +52,7 @@ level=info ts=2019-11-22T00:27:13.772Z caller=main.go:626 msg="Server is ready t
 6. Check to make sure Prometheus is able to scrape metrics from OpenCensus at http://localhost:9090/targets. If the state for the endpoint `http://localhost:8888/metrics` is not `UP`, make sure the OpenCensus agent is running. If you are running Prometheus using Docker, you may have to add `--net="host"` to your run command so that `localhost` resolves correctly.
 
 ## Exporting Metrics
-1. Clone the [tools](https://golang.org/x/tools) subrepository.
+1. Clone the [tools](https://github.com/jackie-feng/tools) subrepository.
 1. Inside `internal`, create a file named `main.go` with the following contents:
 ```go
 package main
@@ -64,10 +64,10 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/tools/internal/telemetry/export"
-	"golang.org/x/tools/internal/telemetry/export/ocagent"
-	"golang.org/x/tools/internal/telemetry/metric"
-	"golang.org/x/tools/internal/telemetry/stats"
+	"github.com/jackie-feng/tools/internal/telemetry/export"
+	"github.com/jackie-feng/tools/internal/telemetry/export/ocagent"
+	"github.com/jackie-feng/tools/internal/telemetry/metric"
+	"github.com/jackie-feng/tools/internal/telemetry/stats"
 )
 
 func main() {

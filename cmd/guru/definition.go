@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"golang.org/x/tools/cmd/guru/serial"
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
+	"github.com/jackie-feng/tools/cmd/guru/serial"
+	"github.com/jackie-feng/tools/go/buildutil"
+	"github.com/jackie-feng/tools/go/loader"
 )
 
 // definition reports the location of the definition of an identifier.

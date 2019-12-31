@@ -11,9 +11,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/telemetry/log"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/jackie-feng/tools/internal/jsonrpc2"
+	"github.com/jackie-feng/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/internal/xcontext"
 )
 
 type Client interface {

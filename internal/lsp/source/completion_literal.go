@@ -11,10 +11,10 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/snippet"
-	"golang.org/x/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/internal/lsp/diff"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/snippet"
+	"github.com/jackie-feng/tools/internal/telemetry/log"
 )
 
 // literal generates composite literal, function literal, and make()

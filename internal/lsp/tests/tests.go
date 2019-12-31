@@ -21,20 +21,20 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/txtar"
+	"github.com/jackie-feng/tools/go/expect"
+	"github.com/jackie-feng/tools/go/packages"
+	"github.com/jackie-feng/tools/go/packages/packagestest"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/span"
+	"github.com/jackie-feng/tools/txtar"
 )
 
 const (
 	overlayFileSuffix = ".overlay"
 	goldenFileSuffix  = ".golden"
 	inFileSuffix      = ".in"
-	testModule        = "golang.org/x/tools/internal/lsp"
+	testModule        = "github.com/jackie-feng/tools/internal/lsp"
 )
 
 var UpdateGolden = flag.Bool("golden", false, "Update golden files")

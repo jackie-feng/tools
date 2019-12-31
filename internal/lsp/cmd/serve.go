@@ -16,14 +16,14 @@ import (
 	"path/filepath"
 	"time"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/telemetry"
-	"golang.org/x/tools/internal/telemetry/trace"
-	"golang.org/x/tools/internal/tool"
+	"github.com/jackie-feng/tools/internal/jsonrpc2"
+	"github.com/jackie-feng/tools/internal/lsp"
+	"github.com/jackie-feng/tools/internal/lsp/cache"
+	"github.com/jackie-feng/tools/internal/lsp/debug"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry/trace"
+	"github.com/jackie-feng/tools/internal/tool"
 	errors "golang.org/x/xerrors"
 )
 

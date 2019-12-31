@@ -15,7 +15,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"golang.org/x/tools/go/ssa"
+	"github.com/jackie-feng/tools/go/ssa"
 )
 
 // If the target program panics, the interpreter panics with this type.

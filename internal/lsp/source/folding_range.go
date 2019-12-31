@@ -6,7 +6,7 @@ import (
 	"go/token"
 	"sort"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
 )
 
 type FoldingRangeInfo struct {

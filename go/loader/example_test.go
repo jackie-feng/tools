@@ -16,7 +16,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/loader"
+	"github.com/jackie-feng/tools/go/loader"
 )
 
 func printProgram(prog *loader.Program) {

@@ -9,7 +9,7 @@ import (
 	"flag"
 	"fmt"
 
-	"golang.org/x/tools/internal/tool"
+	"github.com/jackie-feng/tools/internal/tool"
 )
 
 const (

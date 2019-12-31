@@ -10,7 +10,7 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/benchmark/parse"
+	"github.com/jackie-feng/tools/benchmark/parse"
 )
 
 func TestDelta(t *testing.T) {

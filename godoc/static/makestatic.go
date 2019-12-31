@@ -13,7 +13,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"golang.org/x/tools/godoc/static"
+	"github.com/jackie-feng/tools/godoc/static"
 )
 
 func main() {

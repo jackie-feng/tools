@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/internal/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry"
 )
 
 var traceTmpl = template.Must(template.Must(BaseTemplate.Clone()).Parse(`

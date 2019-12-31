@@ -14,7 +14,7 @@ import (
 	"io"
 	"os"
 
-	"golang.org/x/tools/go/ast/astutil"
+	"github.com/jackie-feng/tools/go/ast/astutil"
 )
 
 //// AST utilities

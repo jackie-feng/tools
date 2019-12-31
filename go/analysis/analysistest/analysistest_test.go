@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/findcall"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/jackie-feng/tools/go/analysis/analysistest"
+	"github.com/jackie-feng/tools/go/analysis/passes/findcall"
+	"github.com/jackie-feng/tools/internal/testenv"
 )
 
 func init() {

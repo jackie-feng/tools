@@ -19,10 +19,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/passes/findcall"
-	"golang.org/x/tools/go/analysis/passes/printf"
-	"golang.org/x/tools/go/analysis/unitchecker"
-	"golang.org/x/tools/go/packages/packagestest"
+	"github.com/jackie-feng/tools/go/analysis/passes/findcall"
+	"github.com/jackie-feng/tools/go/analysis/passes/printf"
+	"github.com/jackie-feng/tools/go/analysis/unitchecker"
+	"github.com/jackie-feng/tools/go/packages/packagestest"
 )
 
 func TestMain(m *testing.M) {

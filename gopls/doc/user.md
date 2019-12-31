@@ -23,7 +23,7 @@ For the most part, you should not need to install or update `gopls`. Your editor
 If you do want to get the latest stable version of `gopls`, change to any directory that is both outside of your `GOPATH` and outside of a module (a temp directory is fine), and run
 
 ```sh
-go get golang.org/x/tools/gopls@latest
+go get github.com/jackie-feng/tools/gopls@latest
 ```
 
 **Do not** use the `-u` flag, as it will update your dependencies to incompatible versions.
@@ -31,12 +31,12 @@ go get golang.org/x/tools/gopls@latest
 If you see this error:
 
 ```sh
-$ go get golang.org/x/tools/gopls@latest
+$ go get github.com/jackie-feng/tools/gopls@latest
 go: cannot use path@version syntax in GOPATH mode
 ```
 then run
 ```sh
-GO111MODULE=on go get golang.org/x/tools/gopls@latest
+GO111MODULE=on go get github.com/jackie-feng/tools/gopls@latest
 ```
 
 

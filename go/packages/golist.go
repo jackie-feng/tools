@@ -23,9 +23,9 @@ import (
 	"time"
 	"unicode"
 
-	"golang.org/x/tools/go/internal/packagesdriver"
-	"golang.org/x/tools/internal/gopathwalk"
-	"golang.org/x/tools/internal/semver"
+	"github.com/jackie-feng/tools/go/internal/packagesdriver"
+	"github.com/jackie-feng/tools/internal/gopathwalk"
+	"github.com/jackie-feng/tools/internal/semver"
 )
 
 // debug controls verbose logging.

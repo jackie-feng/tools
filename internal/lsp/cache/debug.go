@@ -7,8 +7,8 @@ package cache
 import (
 	"sort"
 
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/lsp/debug"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 type debugView struct{ *view }

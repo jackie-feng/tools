@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/lsp"
+	"github.com/jackie-feng/tools/internal/lsp/cache"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

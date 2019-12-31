@@ -12,11 +12,11 @@ import (
 	"go/types"
 
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/go/analysis"
+	"github.com/jackie-feng/tools/go/packages"
+	"github.com/jackie-feng/tools/internal/imports"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 // Snapshot represents the current state for the given view.

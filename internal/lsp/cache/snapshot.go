@@ -9,11 +9,11 @@ import (
 	"os"
 	"sync"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/telemetry"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/go/analysis"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/lsp/telemetry"
+	"github.com/jackie-feng/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/telemetry/log"
 	errors "golang.org/x/xerrors"
 )
 

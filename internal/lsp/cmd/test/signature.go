@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/lsp/source"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 func (r *runner) SignatureHelp(t *testing.T, spn span.Span, expectedSignature *source.SignatureInformation) {

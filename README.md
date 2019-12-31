@@ -14,8 +14,8 @@ Static Single Assignment form (SSA) representation for Go programs.
 
 ## Download/Install
 
-The easiest way to install is to run `go get -u golang.org/x/tools/...`. You can
-also manually git clone the repository to `$GOPATH/src/golang.org/x/tools`.
+The easiest way to install is to run `go get -u github.com/jackie-feng/tools/...`. You can
+also manually git clone the repository to `$GOPATH/src/github.com/jackie-feng/tools`.
 
 ## Report Issues / Send Patches
 

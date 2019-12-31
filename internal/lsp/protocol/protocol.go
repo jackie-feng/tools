@@ -9,10 +9,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/telemetry/log"
-	"golang.org/x/tools/internal/telemetry/trace"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/jackie-feng/tools/internal/jsonrpc2"
+	"github.com/jackie-feng/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/internal/telemetry/trace"
+	"github.com/jackie-feng/tools/internal/xcontext"
 )
 
 const (

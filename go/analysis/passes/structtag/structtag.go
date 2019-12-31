@@ -16,9 +16,9 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/jackie-feng/tools/go/analysis"
+	"github.com/jackie-feng/tools/go/analysis/passes/inspect"
+	"github.com/jackie-feng/tools/go/ast/inspector"
 )
 
 const Doc = `check that struct field tags conform to reflect.StructTag.Get

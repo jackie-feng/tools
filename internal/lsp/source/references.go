@@ -9,10 +9,10 @@ import (
 	"go/ast"
 	"go/types"
 
-	"golang.org/x/tools/go/types/objectpath"
-	"golang.org/x/tools/internal/lsp/telemetry"
-	"golang.org/x/tools/internal/telemetry/log"
-	"golang.org/x/tools/internal/telemetry/trace"
+	"github.com/jackie-feng/tools/go/types/objectpath"
+	"github.com/jackie-feng/tools/internal/lsp/telemetry"
+	"github.com/jackie-feng/tools/internal/telemetry/log"
+	"github.com/jackie-feng/tools/internal/telemetry/trace"
 	errors "golang.org/x/xerrors"
 )
 

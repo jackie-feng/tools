@@ -1,4 +1,4 @@
-module golang.org/x/tools
+module github.com/jackie-feng/tools
 
 go 1.11
 

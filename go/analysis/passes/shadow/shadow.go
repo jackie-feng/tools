@@ -9,9 +9,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/jackie-feng/tools/go/analysis"
+	"github.com/jackie-feng/tools/go/analysis/passes/inspect"
+	"github.com/jackie-feng/tools/go/ast/inspector"
 )
 
 // NOTE: Experimental. Not part of the vet suite.

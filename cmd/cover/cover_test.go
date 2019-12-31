@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/jackie-feng/tools/internal/testenv"
 )
 
 const (

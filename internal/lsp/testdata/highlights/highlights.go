@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/jackie-feng/tools/internal/lsp/protocol"
 )
 
 type F struct{ bar int } //@mark(barDeclaration, "bar"),highlight(barDeclaration, barDeclaration, bar1, bar2, bar3)

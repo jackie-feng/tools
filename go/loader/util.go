@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"sync"
 
-	"golang.org/x/tools/go/buildutil"
+	"github.com/jackie-feng/tools/go/buildutil"
 )
 
 // We use a counting semaphore to limit

@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/lsp/source"
+	"github.com/jackie-feng/tools/internal/span"
 )
 
 // fileBase holds the common functionality for all files.

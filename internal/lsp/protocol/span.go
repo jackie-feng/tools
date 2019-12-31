@@ -9,7 +9,7 @@ package protocol
 import (
 	"fmt"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/jackie-feng/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

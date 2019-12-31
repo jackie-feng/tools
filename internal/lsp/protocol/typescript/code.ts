@@ -1021,9 +1021,9 @@ function output(side: side) {
           "context"
           "encoding/json"
 
-          "golang.org/x/tools/internal/jsonrpc2"
-          "golang.org/x/tools/internal/telemetry/log"
-          "golang.org/x/tools/internal/xcontext"
+          "github.com/jackie-feng/tools/internal/jsonrpc2"
+          "github.com/jackie-feng/tools/internal/telemetry/log"
+          "github.com/jackie-feng/tools/internal/xcontext"
         )
         `);
   const a = side.name[0].toUpperCase() + side.name.substring(1)

@@ -18,7 +18,7 @@ splitdwarf will place it where the OSX tools expect it, in
 creating directories as necessary.
 
 */
-package main // import "golang.org/x/tools/cmd/splitdwarf"
+package main // import "github.com/jackie-feng/tools/cmd/splitdwarf"
 
 import (
 	"crypto/sha256"
@@ -29,7 +29,7 @@ import (
 	"strings"
 	"syscall"
 
-	"golang.org/x/tools/cmd/splitdwarf/internal/macho"
+	"github.com/jackie-feng/tools/cmd/splitdwarf/internal/macho"
 )
 
 const (
